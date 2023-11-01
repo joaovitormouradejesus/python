@@ -4,4 +4,4 @@ u = 4.98
 
 dolar = din/u
 
-print('Você pode comprar U${:3} de dólares americano.'.format(dolar))
+print('Você pode comprar U${:.2f} dólares.'.format(dolar))

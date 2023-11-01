@@ -5,4 +5,4 @@ n = int(input('Digita um número: '))
 #t = n*3
 #r = n**(1/2)
 
-print('O dobro do número {}, \nvale {}, \ne o triplo vale {}, \ne a raíz quadrada dele vale {}.'.format(n, n*2, n*3, n**(1/2)))
+print('O dobro do número {}, \nvale {}, \ne o triplo vale {}, \ne a raíz quadrada dele vale {:.2f}.'.format(n, (n*2), (n*3), (n**(1/2))))
